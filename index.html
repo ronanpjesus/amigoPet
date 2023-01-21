@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Amigo Pet.</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<meta name = "keywords" content="adoção pet, feira de adoção, acessorios"><!--palavras chaves de busca-->
+	<meta name= "description" content="Pagina sobre Badoção pet, feira de adoção">
+	<meta name="author" content="Ronan P. J. | Francisco Diego | Karyne Lorrany"><!--define quem é o autor-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<section>
+		<header>
+			<nav>
+				<a class = "menu" href ="# ">Home</a>    
+				<a class = "menu" href ="#pag-feiras">Feiras de Adoção</a>   
+				<a class = "menu" href ="#pag-cadastro">Cadastro</a> 
+			</nav>
+		</header>
+
+			<div id="carouselExample" class="carousel slide">
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img src="img/banner.jpg" class="d-block w-100" alt="...">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="img/feira2.jpeg" class="d-block w-100" alt="...">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="img/feira4.png" class="d-block w-100" alt="...">
+			    </div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Next</span>
+			  </button>
+			</div>
+		<main>
+			<div>
+				<h1>Quem Somos</h1>
+					<p>
+						Empenhados na proteção e cuidado dos animaizinhos de estimação que são uma ótima companhia e a alegria de famílias ou pessoas que vivem sozinhas, pois contam com um companheiro para todos os momentos. Porém, muitas delas decidem por comprá-los, fazendo com que a adoção de animais fique em segundo plano. Isso resulta em muitos pets vivendo nas ruas, correndo riscos, sendo foco de doenças, sofrendo maus tratos e sentindo fome.
+						Muitas pessoas nem imaginam, mas esses animais já tiveram famílias e, após passarem por situações de abandono, também são colocados nas ruas. 
+					</p>	
+			</div>
+
+
+			<!--inicio dos cards-->
+			<h1 id="pag-feiras">Feira de adoção</h1>
+			<div id="card_alinhar"> <!--serve para alinhar as imagens-->
+				<div class ="card">
+					<img src = "img/adocao1.jpg"  alt="Alinhamento e balanceamento">
+					<div class="card-conteudo">
+						<h3>
+							Thor
+						</h3>
+						<p>
+							Carinhoso e Divertido. 
+						</p>
+						<p>
+							Idade: 1 mês
+						</p>
+
+						<p>
+							Sexo: Macho
+						</p>
+					</div>
+				</div>
+
+				<div class ="card">
+					<img src = "img/adocao2.jpg" alt="Balanceamento">
+					<div class="card-conteudo">
+						<h3>
+							Bonne e Claide
+						</h3>
+						<p>
+							Ela é Carinhosa e ele é Atentado. 
+						</p>
+						<p>
+							Idades: 2 meses 
+						</p>
+
+						<p>
+							Sexo: Femea e Macho
+						</p>			
+					</div>
+				</div>
+
+				<div class ="card">
+					<img src = "img/adocao3.png" alt="oleo">
+					<div class="card-conteudo">
+						<h3>
+							Jupiter e Paçoca 
+						</h3>
+						<p>
+							Ele é ciumento e Ela gosta de todo mundo. 
+						</p>
+						<p>
+							Idades: 1 mês 
+						</p>
+
+						<p>
+							Sexo: Macho e Femea
+						</p>
+					</div>			
+				</div>
+
+				<div class ="card">
+					<img src = "img/adocao4.jpg" alt="Produtos">
+						<div class="card-conteudo">
+							<h3>
+								BiBi  
+							</h3>
+							<p>
+								Carinhosa e Leal. 
+							</p>
+							<p>
+								Idades: 1 mês 
+							</p>
+
+							<p>
+								Sexo: Femea
+							</p>			
+						</div>
+			</div>
+
+			<!--Fim dos Cards-->
+
+		</main>			
+			<aside>
+				<h1 id="pag-cadastro">
+					Adote um Anjo!
+				</h1>
+				<p>Informe seus dados no formulário e entraremos em contato!</p>
+				<div id="caixa_formulario">
+					<form name = "" method="" action="">
+						<label for="nome">Nome: </label> <br/>
+						<input id = "nome" type="text" name="nome_completo" size = "80" placeholder="Digite seu nome completo."required/>
+						<br/><br/>
+
+						<label for="endereco">Endereço: </label> <br/>
+						<input id = "endereco" type="text" name="endereco_completo" size = "80" placeholder="Digite seu endereço."required/>
+						<br/><br/>
+					
+						<label for="celular">Celular: </label> <br/>
+						<input id = "celular" type="tel" name="celular" size = "80" placeholder="(00)00000-0000" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" required/><br/><br/>
+					
+						<div id = "botoes-formulario">
+							<input type="submit" name="bnt-enviar" value="ENVIAR"/>
+							<input type="reset" name="btn-cancelar" value="CANCELAR" />
+						</div>
+					</form>
+				</div>
+			</aside>
+<footer>
+	<div id="rodape">
+		<p> Desenvolvido Por: <a class = "footer_rodape" href ="http://instagram.com/ronan_pj" target = "_blank">Ronan Pereira de Jesus  |  </a><a class = "footer_rodape" href ="https://www.instagram.com/diego_oliveira_7/" target = "_blank">Francisco Diego  |  </a><a class = "footer_rodape" href ="https://www.instagram.com/kahcodes/?igshid=OGQ2MjdiOTE%3D" target = "_blank">Karyne Lorrany</a> - 2022</p>
+	</div>
+</footer>
+<div id="bt-topo"><a href="#"><img src = "img/voltar.jpg"  alt="imagem que leva ao topo da página"></a><</div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>
